@@ -1,0 +1,283 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "Hello",
+        "Greetings",
+        "Is anyone available?",
+        "Good day",
+        "Hey",
+        "Hi, how can I help you?",
+        "Welcome",
+        "Good morning",
+        "Hi! What brings you here?"
+      ],
+      "responses": [
+        "Hello, welcome to our IT Software company!",
+        "Hi there! How can we assist you today?",
+        "Greetings! What can we do for you?",
+        "Hi there, how can our IT experts help you?",
+        "Hey, welcome to our IT Software company!",
+        "Good day! How can we assist you?",
+        "Hello, how may we help you today?",
+        "Hi there, welcome to our company!",
+        "Good morning! How can we assist you today?",
+        "Hi! How can our IT experts help you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Farewell",
+        "Bye",
+        "Take care",
+        "See you soon",
+        "Have a great day",
+        "Goodbye, come back soon",
+        "Until next time",
+        "Bye for now"
+      ],
+      "responses": [
+        "Goodbye! If you have any more questions, feel free to return.",
+        "See you later! Have a great day.",
+        "Farewell! Don't hesitate to reach out if you need further assistance.",
+        "Bye! Feel free to return anytime.",
+        "Take care and goodbye!",
+        "See you soon! Have a wonderful day.",
+        "Have a great day! Goodbye.",
+        "Goodbye, come back soon for more assistance.",
+        "Until next time! Take care.",
+        "Bye for now! Feel free to reach out again."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Appreciate it",
+        "Thank you so much!",
+        "Thanks a lot",
+        "Much appreciated",
+        "Thank you for your help",
+        "I'm grateful",
+        "Thanks for the assistance",
+        "I appreciate your support"
+      ],
+      "responses": [
+        "You're welcome! If you need anything else, feel free to ask.",
+        "Glad to assist!",
+        "Anytime!",
+        "You're welcome! Feel free to reach out anytime.",
+        "Happy to help!",
+        "You're welcome! Have a great day!",
+        "Anytime! Let us know if you need more help.",
+        "Glad we could assist you!",
+        "You're welcome! Thank you for reaching out.",
+        "Anytime! Thank you for contacting us."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What services do you offer?",
+        "Tell me about your software solutions",
+        "What does your company specialize in?",
+        "Can you list your services?",
+        "What are your core services?",
+        "How can you help my business?",
+        "What IT solutions do you provide?",
+        "Describe your services",
+        "What kind of services do you specialize in?",
+        "How can you assist our company?"
+      ],
+      "responses": [
+        "We provide a comprehensive suite of IT services, including custom software development, system integration, cloud computing solutions, and cybersecurity services.",
+        "Our expertise encompasses a wide range of services such as software development, system optimization, mobile app development, and IT consulting tailored to your business goals.",
+        "Our company specializes in offering custom software solutions, system integrations, cloud services, and cybersecurity solutions.",
+        "Our core services include custom software development, system integration, cloud computing, cybersecurity, and IT consulting tailored to your business needs.",
+        "We offer IT services such as software development, system optimization, mobile app development, and IT consulting to help businesses achieve their goals.",
+        "Our IT solutions cover custom software development, system integration, cloud services, cybersecurity measures, and IT consulting to support your business growth.",
+        "We specialize in providing IT services like software development, system integration, cloud solutions, cybersecurity measures, and IT consulting to enhance your business operations.",
+        "Our services include custom software development, system optimization, mobile app development, and IT consulting to address your unique business requirements.",
+        "We focus on offering custom software solutions, system integrations, cloud services, cybersecurity measures, and IT consulting to meet your company's specific needs.",
+        "We can assist your company with services such as custom software development, system integration, cloud computing solutions, cybersecurity measures, and IT consultation."
+      ]
+    },
+    {
+      "tag": "technologies",
+      "patterns": [
+        "Which technologies do you work with?",
+        "Tell me about the technologies you use",
+        "What programming languages do you specialize in?",
+        "Can you list the technologies you are proficient in?",
+        "What tech stacks do you employ?",
+        "How familiar are you with programming languages?",
+        "What frameworks do you use?",
+        "Do you have expertise in specific technologies?",
+        "What tools do you utilize for development?",
+        "What are your tech capabilities?"
+      ],
+      "responses": [
+        "Our team is well-versed in a variety of technologies, including but not limited to Java, Python, JavaScript, Node.js, React, Angular, and database systems like MySQL and MongoDB.",
+        "We specialize in cutting-edge technologies such as AI, machine learning, and blockchain. Additionally, we have expertise in popular programming languages like Java, Python, and JavaScript for robust and scalable solutions.",
+        "We work with technologies like Java, Python, JavaScript, Node.js, React, Angular, MySQL, MongoDB, AI, machine learning, and blockchain to deliver innovative and effective solutions.",
+        "Our tech stack includes Java, Python, JavaScript, Node.js, React, Angular, MySQL, MongoDB, AI, machine learning, and blockchain for creating advanced and reliable software solutions.",
+        "We are proficient in programming languages like Java, Python, JavaScript, and frameworks such as Node.js, React, Angular, as well as database systems like MySQL and MongoDB.",
+        "Our expertise lies in technologies such as Java, Python, JavaScript, Node.js, React, Angular, AI, machine learning, blockchain, and more, ensuring we deliver high-quality solutions.",
+        "We utilize a range of technologies including Java, Python, JavaScript, Node.js, React, Angular, and database systems like MySQL and MongoDB to address diverse client requirements.",
+        "Our team is skilled in programming languages like Java, Python, JavaScript, and tools such as Node.js, React, Angular, AI, machine learning, blockchain, MySQL, and MongoDB for comprehensive software development.",
+        "With expertise in Java, Python, JavaScript, Node.js, React, Angular, AI, machine learning, blockchain, MySQL, MongoDB, and more, we leverage a wide array of technologies to build tailored solutions for your business.",
+        "Our tech capabilities span Java, Python, JavaScript, Node.js, React, Angular, AI, machine learning, blockchain, MySQL, and MongoDB, enabling us to create cutting-edge software solutions for various industries."
+      ]
+    },
+    {
+      "tag": "partnerships",
+      "patterns": [
+        "Do you collaborate with other companies?",
+        "Are you open to partnerships?",
+        "Tell me about your collaborations",
+        "Can we explore a partnership?",
+        "Are there opportunities for collaboration?",
+        "How do you engage with other companies?",
+        "Do you have any ongoing collaborations?",
+        "Are you looking for partnership opportunities?",
+        "Can we discuss potential collaborations?",
+        "How do you approach collaborations?"
+      ],
+      "responses": [
+        "Yes, collaboration is key to innovation. We actively seek partnerships with other companies, fostering an environment of shared knowledge and expertise.",
+        "We believe in the power of collaboration and are open to partnerships that bring value to both parties. Let's explore opportunities to work together on exciting projects.",
+        "Collaboration is at the heart of our approach. We are open to partnerships that drive innovation and create mutually beneficial outcomes for all parties involved.",
+        "We value collaborations with other companies as they help us bring diverse perspectives and expertise to our projects. Let's discuss potential partnership opportunities.",
+        "Our company actively engages in partnerships to leverage collective strengths and drive innovation. We are open to exploring collaboration opportunities with your organization.",
+        "Exploring partnerships with other companies is a priority for us. Let's discuss how we can collaborate to achieve shared goals and deliver exceptional solutions together.",
+        "We are always on the lookout for partnership opportunities to enhance our offerings and contribute to meaningful projects. Let's connect and explore potential collaborations.",
+        "Collaboration is a cornerstone of our business model. We are eager to build partnerships that enable us to deliver impactful solutions and drive technological advancements.",
+        "Partnering with other companies is essential for us to stay at the forefront of innovation. Let's talk about how we can collaborate and create value together.",
+        "We approach collaborations with a mindset of mutual growth and innovation. If you're interested in exploring partnership opportunities, we'd love to discuss further."
+      ]
+    },
+    {
+      "tag": "support",
+      "patterns": [
+        "How can I get technical support?",
+        "Do you offer customer support?",
+        "What's your support process?",
+        "Can I reach out for assistance?",
+        "How do I contact your support team?",
+        "Is there a support hotline I can use?",
+        "What are your support hours?",
+        "Do you provide 24/7 support?",
+        "Who do I contact for technical issues?",
+        "How can I get help with troubleshooting?"
+      ],
+      "responses": [
+        "Our technical support team is available 24/7. For assistance, simply reach out to them at [support@email.com], and they'll promptly address your queries or concerns.",
+        "Customer satisfaction is our priority. Contact our dedicated support team at [support@email.com] for timely and effective assistance with any technical issues or inquiries.",
+        "If you need technical support, you can contact our support team at [support@email.com] at any time, and they will assist you with any queries or issues you may have.",
+        "You can reach out to our customer support team at [support@email.com] for any assistance or troubleshooting needs. They are available round the clock to help you.",
+        "Feel free to contact our support team at [support@email.com] for any technical assistance or inquiries. They are here to support you whenever you need help.",
+        "Our support team can be reached at [support@email.com] for all your technical support needs. Don't hesitate to get in touch if you encounter any issues.",
+        "We provide around-the-clock support for our customers. You can contact our support team at [support@email.com] for assistance with any technical issues you face.",
+        "Our support hours are 24/7 to ensure you receive assistance whenever you need it. Contact our support team at [support@email.com] for prompt help with technical issues.",
+        "For technical support inquiries, please contact our support team at [support@email.com]. They are available to assist you with troubleshooting and resolving any issues you encounter.",
+        "If you need help with troubleshooting, reach out to our support team at [support@email.com]. They are dedicated to providing timely support for all technical issues."
+      ]
+    },
+    {
+      "tag": "future",
+      "patterns": [
+        "What's the future roadmap for your company?",
+        "Tell me about your future plans",
+        "What innovations can we expect from your company?",
+        "How do you envision the future of your company?",
+        "Where do you see your company heading?",
+        "What are your upcoming initiatives?",
+        "Can you share insights into your future strategies?",
+        "What technological advancements are you investing in?",
+        "Do you have plans for future growth and development?",
+        "How will you stay ahead in the industry?"
+      ],
+      "responses": [
+        "Our future roadmap includes embracing emerging technologies like edge computing, IoT, and progressive web applications. We are committed to staying ahead in the rapidly evolving tech landscape.",
+        "We are excited about the future, where we plan to explore advancements in AI, automation, and sustainable IT solutions. Expect continuous innovation and a commitment to delivering state-of-the-art technology.",
+        "The future holds exciting possibilities for us, where we aim to leverage technologies like AI, machine learning, and blockchain for groundbreaking solutions. Stay tuned for our innovative offerings.",
+        "We envision a future built on cutting-edge technologies such as edge computing, IoT, and AI-driven solutions. Our commitment to innovation and customer-centric approaches will drive our growth in the industry.",
+        "As we look ahead, our focus is on embracing technological advancements like AI, automation, and sustainability measures. These initiatives will guide our growth and success in the evolving tech landscape.",
+        "Our future plans revolve around adopting advanced technologies like edge computing, IoT, and AI to drive innovation and deliver transformative solutions. Get ready for exciting developments from our company.",
+        "We are investing in future technologies like AI, automation, and sustainable practices to lead the way in our industry. Our strategies are geared towards continuous growth and delivering value to our customers.",
+        "In the coming years, you can expect us to explore innovations in AI, machine learning, and blockchain. These technologies will shape our future offerings and drive our competitive edge in the market.",
+        "We are dedicated to future growth and development through investments in technologies like edge computing, IoT, and AI. Our goal is to lead the industry with pioneering solutions and services.",
+        "To stay ahead in the industry, we are committed to continuous learning and innovation. Expect us to focus on advancements in AI, automation, and sustainability to drive our future success."
+      ]
+    },
+    {
+      "tag": "project",
+      "patterns": [
+        "How do I initiate a software development project with your company?",
+        "Tell me about your project development process",
+        "What steps are involved in starting a project with you?",
+        "Can you guide me through the project initiation process?",
+        "How can I kickstart a project with your company?",
+        "What is the procedure for starting a development project with you?",
+        "How do I get started on a project with your team?",
+        "Can you explain the steps for commencing a software project?",
+        "What do I need to do to begin a project with your company?",
+        "How can I engage your services for a software project?"
+      ],
+      "responses": [
+        "To kickstart a software development project, connect with our sales team at [sales@email.com]. They will guide you through the project initiation process, understand your requirements, and provide a detailed project plan.",
+        "Our project development process begins with a thorough analysis of your project requirements. Reach out to our sales team at [sales@email.com], and let's embark on the journey of creating a tailored software solution for your business.",
+        "Starting a project with us is simple. Just contact our sales team at [sales@email.com], discuss your project needs, and we'll outline the steps involved in initiating the software development process.",
+        "The first step to commencing a project with us is to contact our sales team at [sales@email.com]. They will assist you in understanding your project scope and guiding you through the initial stages of development.",
+        "If you're ready to start a project with us, reach out to our sales team at [sales@email.com] to begin the process. They will work with you to define project requirements and outline the next steps for development.",
+        "Engaging our services for a software project is easy. Simply email our sales team at [sales@email.com], share your project details, and we'll take it from there to kickstart the development process.",
+        "Getting started on a project with us involves reaching out to our sales team at [sales@email.com]. They will assist you in understanding your project goals and requirements, setting the stage for successful software development.",
+        "To begin a project with our team, connect with our sales team at [sales@email.com]. They will walk you through the steps involved in initiating a software development project tailored to your specific needs.",
+        "The process of starting a project with us begins by contacting our sales team at [sales@email.com]. They will gather your project requirements, outline the development process, and ensure a seamless start to your software project.",
+        "Initiating a software project with our company is straightforward. Email our sales team at [sales@email.com] to share your project vision, and we will work with you to kickstart the project development process."
+      ]
+    },
+    {
+      "tag": "security",
+      "patterns": [
+        "How do you ensure the security of software systems?",
+        "Tell me about your security measures",
+        "What steps do you take to protect client data?"
+      ],
+      "responses": [
+        "Security is at the core of our development practices. We implement industry-leading security measures, conduct regular penetration testing, and follow stringent protocols to protect both our software systems and your valuable data.",
+        "Your data security is non-negotiable for us. We employ a multi-layered approach, including encryption, secure coding practices, and regular audits, to ensure the highest level of protection for client data and our software systems."
+      ]
+    },
+    {
+      "tag": "agile",
+      "patterns": [
+        "Do you follow agile methodologies in your development process?",
+        "Tell me about your development approach",
+        "What project management methodologies do you use?"
+      ],
+      "responses": [
+        "Yes, we follow agile methodologies in our development process. This ensures flexibility, transparency, and frequent collaboration between our team and clients, resulting in efficient and successful project delivery.",
+        "Agile is at the heart of our development approach. It enables us to respond quickly to changing requirements, prioritize customer feedback, and deliver high-quality software solutions with maximum client satisfaction."
+      ]
+    },
+    {
+      "tag": "remote",
+      "patterns": [
+        "Do you offer remote collaboration options?",
+        "Can I work with your team remotely?",
+        "Tell me about your remote work policies."
+      ],
+      "responses": [
+        "Absolutely! We offer remote collaboration options for clients who prefer working with our team from any location. Our efficient communication tools and project management platforms ensure seamless remote collaboration.",
+        "Remote collaboration is part of our working culture. Whether you're across the street or on the other side of the globe, our remote work policies and advanced collaboration tools enable effective communication and project execution."
+      ]
+    }
+  ]
+}
